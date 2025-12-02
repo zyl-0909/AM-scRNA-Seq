@@ -19,7 +19,7 @@ AM-scRNA-Seq/
 │   ├── figure1\_alldata\_plot.R
 │   ├── cellchat\_analysis.R
 │   ├── myeloid\_macrophage\_analysis.R
-├── data/        # Input data (.qs, .csv, .xlsx); not tracked in Git
+├── data/        
 ├── .gitignore
 └── README.md
 
