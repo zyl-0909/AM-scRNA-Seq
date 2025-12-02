@@ -1,7 +1,7 @@
 # AM-scRNA-Seq Analysis
 
 This repository contains reproducible R scripts for analyzing single-cell RNA-seq
-data from airway macrophages (AM) and related immune subsets. The codebase is 
+data from acral melanoma (AM) and related immune subsets. The codebase is 
 organized to generate publication-ready figures and to perform CellChat and 
 polarization analyses on curated Seurat objects.
 
