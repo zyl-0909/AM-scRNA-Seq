@@ -1,7 +1,30 @@
 # ============================================================
 #   figure1_alldata_plot.R
-#   UMAP + DotPlot for the full dataset (All-data)
-#   Put under: R/figure1_alldata_plot.R
+#
+#   Description:
+#     UMAP visualizations and marker DotPlot for the full
+#     single-cell dataset ("All-data").
+#
+#   Inputs:
+#     - data/seurat_object.qs
+#
+#   Outputs:
+#     - umap_split_group.pdf
+#     - umap_split_sample.pdf
+#     - dotplot_markers.pdf
+#
+#   User-configurable parameters:
+#     REDUCTION   : reduction name (e.g., "umap")
+#     LABEL_COL   : cell annotation column
+#     SPLIT_COL1  : first facet column
+#     SPLIT_COL2  : second facet column
+#     MARKERS     : marker gene list
+#
+#   Notes:
+#     - No original sample IDs or patient labels included.
+#     - Safe for public GitHub release.
+#     - Suggested to load: theme_publication()
+#
 # ============================================================
 
 suppressPackageStartupMessages({
